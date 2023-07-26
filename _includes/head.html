@@ -21,15 +21,15 @@
   <link rel="stylesheet" href="https://npmcdn.com/hack/dist/dark.css" />
   {% endif %}
 
-  <!-- Prism.js -->
-  <link rel="stylesheet" href="https://npmcdn.com/prismjs@1.5.1/themes/prism.css" />
-
   <!-- Custom style -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
 
   <!-- Feed -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
         href="{{ "/feed.xml" | prepend: site.baseurl }}" />
+
+  <!-- Prism.js -->
+  <link rel="stylesheet" href="{{ "/css/prism.css" | prepend: site.baseurl }}" />
 
   <!-- 'jekyll-seo' plugin -->
   {% seo %}
