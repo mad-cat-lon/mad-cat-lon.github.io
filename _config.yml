@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: jekyll-theme-hackcss
+title: README
 description: > # this means to ignore newlines until "baseurl:"
   A minimalistic theme for Jekyll, based on hack.css
 repository: https://github.com/wemake-services/jekyll-theme-hackcss
@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Theme settings
-theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+theme_mode: dark  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
 your_name: wemake.services
@@ -51,13 +51,6 @@ projects:
     description: Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files.
     link: https://github.com/sobolevn/django-split-settings
 
-social:
-  - service: github
-    username: sobolevn
-    link: https://github.com/sobolevn
-  - service: twitter
-    username: sobolevn
-    link: https://twitter.com/sobolevn
 
 # Plugins
 gems:
