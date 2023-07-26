@@ -1,13 +1,13 @@
 ---
 layout: default
-permalink: examples
+permalink: blog
 ---
 
 <section>
-  <h1>Examples</h1>
+  <h1>blog</h1>
 
   <p>
-    This is more like an example page with different widgets.
+    Collection of my writeups and notes
   </p>
 </section>
 
@@ -56,38 +56,3 @@ permalink: examples
   {% endfor %}
 </section>
 
-<section>
-
-  <h2>Cards</h2>
-
-  <div class="grid t-hackcss-cards">
-
-    {% for project in site.projects %}
-
-    <div class="cell -6of12 t-hackcss-cards-cell">
-      <div class="card">
-        <header class="card-header">{{ project.name }}</header>
-        <div class="card-content">
-          <div class="inner">
-
-            {% if project.image %}
-            <img src="{{ project.image }}" class="t-hackcss-cards-image"
-                 alt="{{ project.name }}"
-                 title="{{ project.name }}" />
-            {% endif %}
-
-            <p class="t-hackcss-cards-text">{{ project.description }}</p>
-            <p class="t-hackcss-cards-link">
-              <a href="{{ project.link }}" title="{{ project.name }}" target="_blank">
-                 {{ project.name }}
-               </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {% endfor %}
-
-  </div>
-</section>

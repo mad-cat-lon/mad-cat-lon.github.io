@@ -24,16 +24,14 @@ sass:
 theme_mode: dark  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
-your_name: hack the planet! 
+your_name: hack the planet
 email: deztinz[@]proton.me
 
 navigation:
-  - text: Home
+  - text: home
     url: /
-  - text: Docs
-    url: /docs
-  - text: Examples
-    url: /examples
+  - text: blog
+    url: /blog
 
 # projects:
   # - name: git-secret
