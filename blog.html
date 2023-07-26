@@ -44,14 +44,6 @@ permalink: blog
           {{ post.short_description }}
         </div>
       </div>
-
-      {% if nth == 1 %}
-      <div class="t-hackcss-media-shift media-right">
-        <img class="t-hackcss-media-image"
-             src="{{ post.image_preview }}" alt="{{ post.title }}"
-             title="{{ post.title }}" />
-      </div>
-      {% endif %}
     </div>
   {% endfor %}
 </section>
