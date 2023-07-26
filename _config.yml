@@ -15,13 +15,22 @@ url: https://mad-cat-lon.github.io  # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: java
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 # Sass settings
 sass:
   style: compressed
 
 # Theme settings
-theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+theme_mode: dark  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
 your_name: hack the planet
