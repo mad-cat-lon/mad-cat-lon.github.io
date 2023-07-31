@@ -26,6 +26,10 @@ theme_mode: dark  # choices are: 'dark', 'standard', 'markdown'
 # Customizations
 your_name: hack the planet
 email: deztinz[@]proton.me
+social:
+  - service: github
+    username: mad-cat-lon
+    link: https://github.com/mad-cat-lon
 
 navigation:
   - text: home
