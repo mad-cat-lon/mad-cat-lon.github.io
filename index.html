@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="css/hack.css">
         <link rel="stylesheet" href="https://npmcdn.com/hack/dist/dark.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body class="hack dark">
         <div class="main container">
@@ -37,18 +37,23 @@
                     <ul>
                         <li>Webdev (MERN stack)</li>
                         <li>Machine learning and LLM security</li>
-                        <li>Reverse engineering and anti-reverse engineering</li>
+                        <li>Reverse engineering / anti-reverse engineering</li>
                         <li>Obfuscation and deobfuscation techniques</li>
                         <li>Python internals</li>
+                        <li>Malware analysis / development</li>
                         <li>Fuzzing and exploit development</li>
                         <li>Gardening</li>
+
                     </ul>
                     </li>
                 </ul>
                 <section>
                 <h2>projects</h2>
                 <h3><a href="https://github.com/mad-cat-lon/jargonaut">jargonaut</a></h3>
-                <p>A Python 3.9 source-to-source obfuscation engine with a focus on being extensible, configurable and easy to use. Implemented features include mixed boolean-arithmetic expressions of various classes, variable insertion to prevent lifting, bytecode patching at runtime, bogus control flow, opaque predicates and much more. Parsing and manipulation of source code as an AST is done with <a href="https://github.com/Instagram/LibCST">LibCST</a> and <a href="https://pyre-check.org/">Pyre</a> is used for type inference during code generation and analysis. Most math is done with <a href="https://github.com/Z3Prover/z3">Z3</a> </p>
+                <p>A Python 3.9 source-to-source obfuscation engine with a focus on being extensible, configurable and easy to use. Implemented features include <a href="https://theses.hal.science/tel-01623849/document">mixed boolean-arithmetic expressions</a> of various classes (shoutout Eyrolles), variable and parameter insertion to prevent expression lifting, bytecode patching at runtime, bogus control flow, <a href="https://sci-hub.se/https://link.springer.com/chapter/10.1007/978-3-319-45871-7_20">opaque predicates</a> and much more. 
+                </p>
+                <p>
+                Parsing and manipulation of source code as a CST is done with <a href="https://github.com/Instagram/LibCST">LibCST</a>. <a href="https://pyre-check.org/">Pyre</a> is used for type inference during code analysis and generation to ensure correctness. Most of the math (which is for MBA and opaque predicate generation) is done with <a href="https://github.com/Z3Prover/z3">Z3</a>.</p>
                 <h3><a href="https://github.com/mad-cat-lon/visuallama">visuallama</a></h3>
                 <p>Simple MERN stack webapp that allows you to interact with locally running <a href="https://github.com/nomic-ai/gpt4all">LLMs</a> and manage parameters such as temperature, starting prompt, max tokens, etc.</p>
                 </section>
